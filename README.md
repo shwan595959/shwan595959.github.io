@@ -348,7 +348,10 @@
     </style>
 </head>
 <body>
-
+<nav>
+        <div class="logo">CNSH | 김수환</div>
+        
+</nav>
     <!-- 플로팅 오브 -->
     <div class="orb orb-1"></div>
     <div class="orb orb-2"></div>
