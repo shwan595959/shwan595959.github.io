@@ -463,5 +463,7 @@
             });
         });
     </script>
+    <script data-goatcounter="https://shwan595959.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
