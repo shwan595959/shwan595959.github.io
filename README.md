@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
@@ -358,81 +357,65 @@
     <!-- 별 배경 -->
     <div class="stars" id="stars"></div>
 
-    <!-- 네비게이션 -->
-    <nav>
-        <div class="logo">NOVA</div>
-        <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Work</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-
     <!-- 히어로 -->
     <section class="hero">
-        <div class="hero-badge">✦ WELCOME TO THE FUTURE ✦</div>
+        <div class="hero-badge">✦ 충남과학고등학교 ✦</div>
         <h1>
-            Create Something<br>
-            <span class="gradient-text">Extraordinary</span>
+            설문에 참여해 주셔서 감사합니다.<br>
+            <span class="gradient-text">멋진 꿈을 향에 나아가길 기대할게요!</span>
         </h1>
-        <p>우주처럼 무한한 가능성을 탐험하세요.<br>당신의 아이디어를 현실로 만들어 드립니다.</p>
+        <p>시험 공부 많이 힘드셨죠?<br>앞으로는 더 잘 할 수 있을거예요.</p>
         <div class="btn-group">
-            <button class="btn-primary">🚀 시작하기</button>
-            <button class="btn-secondary">더 알아보기 →</button>
+            <button class="btn-primary">감사합니다</button>
         </div>
     </section>
 
     <!-- 카드 섹션 -->
     <div class="section">
-        <h2 class="section-title">✦ Our <span class="gradient-text">Services</span></h2>
+        <h2 class="section-title">무엇을 조사하나요?</h2>
         <div class="cards">
             <div class="card" style="--card-gradient: linear-gradient(90deg, #a78bfa, #60a5fa)">
-                <div class="card-icon">🎨</div>
-                <h3>UI/UX Design</h3>
-                <p>사용자 경험을 최우선으로 생각하는 아름답고 직관적인 디자인을 제공합니다.</p>
+                <div class="card-icon">A</div>
+                <h3>충남과학고등학교</h3>
+                <p>충남과학고등학교 복도에 이 포스터가 붙어 있습니다.</p>
             </div>
             <div class="card" style="--card-gradient: linear-gradient(90deg, #60a5fa, #34d399)">
-                <div class="card-icon">⚡</div>
-                <h3>Web Development</h3>
-                <p>최신 기술 스택을 활용한 빠르고 안정적인 웹 애플리케이션을 개발합니다.</p>
+                <div class="card-icon">B</div>
+                <h3>설화고등학교</h3>
+                <p>설화고등학교 엘리베이터 앞에 이 포스터가 붙어 있습니다.</p>
             </div>
             <div class="card" style="--card-gradient: linear-gradient(90deg, #34d399, #fbbf24)">
-                <div class="card-icon">🤖</div>
-                <h3>AI Integration</h3>
-                <p>인공지능 기술을 비즈니스에 접목하여 스마트한 솔루션을 만들어 드립니다.</p>
+                <div class="card-icon">C</div>
+                <h3>이순신고등학교</h3>
+                <p>이순신고등학교 복도에 이 포스터가 붙어 있습니다</p>
             </div>
             <div class="card" style="--card-gradient: linear-gradient(90deg, #fbbf24, #f87171)">
-                <div class="card-icon">📱</div>
-                <h3>Mobile App</h3>
-                <p>iOS와 Android 모두를 아우르는 크로스 플랫폼 모바일 앱을 제작합니다.</p>
+                <div class="card-icon">D</div>
+                <h3>어그나무</h3>
+                <p>어그나무 7F에 이 포스터가 붙어 있습니다.</p>
             </div>
         </div>
 
         <!-- 스탯 -->
         <div class="stats">
             <div class="stat">
-                <div class="stat-number">200+</div>
-                <div class="stat-label">PROJECTS DONE</div>
+                <div class="stat-number">김수환</div>
+                <div class="stat-label">기술</div>
             </div>
             <div class="stat">
-                <div class="stat-number">98%</div>
-                <div class="stat-label">CLIENT SATISFACTION</div>
+                <div class="stat-number">오승훈</div>
+                <div class="stat-label">설문지 제작</div>
             </div>
             <div class="stat">
-                <div class="stat-number">50+</div>
-                <div class="stat-label">TEAM MEMBERS</div>
-            </div>
-            <div class="stat">
-                <div class="stat-number">5★</div>
-                <div class="stat-label">AVERAGE RATING</div>
+                <div class="stat-number">황아인</div>
+                <div class="stat-label">기획</div>
             </div>
         </div>
     </div>
 
     <!-- 푸터 -->
     <footer>
-        <p>© 2025 NOVA Studio · Made with ✦ and lots of ☕</p>
+        <p>© 2025 김수환 | CNSH</p>
     </footer>
 
     <script>
