@@ -349,7 +349,7 @@
 </head>
 <body>
 <nav>
-        <div class="logo">CNSH | 김수환</div>
+        <div class="logo">KSH</div>
         
 </nav>
     <!-- 플로팅 오브 -->
@@ -390,7 +390,7 @@
             <div class="card" style="--card-gradient: linear-gradient(90deg, #34d399, #fbbf24)">
                 <div class="card-icon">C</div>
                 <h3>이순신고등학교</h3>
-                <p>이순신고등학교 복도에 이 포스터가 붙어 있습니다</p>
+                <p>이순신고등학교 복도에 이 포스터가 붙어 있습니다.</p>
             </div>
             <div class="card" style="--card-gradient: linear-gradient(90deg, #fbbf24, #f87171)">
                 <div class="card-icon">D</div>
