@@ -115,7 +115,7 @@
         }
 
         .hero h1 {
-            font-size: clamp(2.1rem, 5vw, 4rem);
+            font-size: clamp(1.8rem, 4.5vw, 3.5rem);
             font-weight: 900;
             line-height: 1.1;
             margin-bottom: 24px;
@@ -365,7 +365,7 @@
         <div class="hero-badge">✦ 충남과학고등학교 ✦</div>
         <h1>
             설문에 참여해 주셔서 감사합니다.<br>
-            <span class="gradient-text">멋진 꿈을 향에 나아가길 기대할게요!</span>
+            <span class="gradient-text">멋진 꿈을 향해 나아가길 기대할게요!</span>
         </h1>
         <p>시험 공부 많이 힘드셨죠?<br>앞으로는 더 잘 할 수 있을거예요.</p>
         <div class="btn-group">
