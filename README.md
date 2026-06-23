@@ -107,7 +107,7 @@
             border-radius: 50px;
             border: 1px solid rgba(167,139,250,0.4);
             background: rgba(167,139,250,0.1);
-            font-size: 0.8rem;
+            font-size: 0.6rem;
             letter-spacing: 2px;
             color: #a78bfa;
             margin-bottom: 24px;
@@ -399,12 +399,12 @@
         <!-- 스탯 -->
         <div class="stats">
             <div class="stat">
-                <div class="stat-number">김수환</div>
-                <div class="stat-label">기술</div>
-            </div>
-            <div class="stat">
                 <div class="stat-number">오승훈</div>
                 <div class="stat-label">설문지 제작</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">김수환</div>
+                <div class="stat-label">기술</div>
             </div>
             <div class="stat">
                 <div class="stat-number">황아인</div>
