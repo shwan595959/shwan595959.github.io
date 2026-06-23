@@ -107,7 +107,7 @@
             border-radius: 50px;
             border: 1px solid rgba(167,139,250,0.4);
             background: rgba(167,139,250,0.1);
-            font-size: 0.6rem;
+            font-size: 1rem;
             letter-spacing: 2px;
             color: #a78bfa;
             margin-bottom: 24px;
@@ -115,7 +115,7 @@
         }
 
         .hero h1 {
-            font-size: clamp(2.5rem, 7vw, 6rem);
+            font-size: clamp(2.1rem, 5vw, 4rem);
             font-weight: 900;
             line-height: 1.1;
             margin-bottom: 24px;
