@@ -360,6 +360,9 @@
             background: linear-gradient(#a78bfa, #60a5fa);
             border-radius: 3px;
         }
+        .markdown-body img {
+    background-color: transparent !important;
+}
     </style>
 </head>
 <body>
