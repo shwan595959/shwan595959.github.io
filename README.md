@@ -87,12 +87,34 @@
 
         .nav-links a:hover { color: #fff; }
         .nav-links a:hover::after { width: 100%; }
+        
+        .middle {
+            position: relative;
+            z-index: 1;
+            min-height: 20vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 20px;
+        }
 
+        .middle p {
+            font-size: 1.15rem;
+            font-weight: 400;
+            color: rgba(255,255,255,0.55);
+            max-width: 1000px;
+            line-height: 4.0;
+            margin-bottom: 40px;
+            animation: fadeInUp 0.8s ease 0.4s both;
+        
+        }
         /* 히어로 섹션 */
         .hero {
             position: relative;
             z-index: 1;
-            min-height: 100vh;
+            min-height: 80vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -117,7 +139,7 @@
         .hero h1 {
             font-size: clamp(1.8rem, 4.5vw, 3.5rem);
             font-weight: 900;
-            line-height: 1.1;
+            line-height: 1.5;
             margin-bottom: 24px;
             animation: fadeInUp 0.8s ease 0.2s both;
         }
@@ -131,7 +153,7 @@
         .hero p {
             font-size: 1.15rem;
             color: rgba(255,255,255,0.55);
-            max-width: 520px;
+            max-width: 1000px;
             line-height: 1.8;
             margin-bottom: 40px;
             animation: fadeInUp 0.8s ease 0.4s both;
@@ -349,7 +371,7 @@
 </head>
 <body>
 <nav>
-        <div class="logo">KSH</div>
+        <div class="logo">CNSH</div>
         
 </nav>
     <!-- 플로팅 오브 -->
@@ -362,20 +384,22 @@
 
     <!-- 히어로 -->
     <section class="hero">
-        <div class="hero-badge">✦ 충남과학고등학교 ✦</div>
+        <div class="hero-badge">✦ 통계 포스터 대회 ✦</div>
         <h1>
-            설문에 참여해 주셔서 감사합니다.<br>
+            설문에 참여해 주셔서 감사합니다<br>
             <span class="gradient-text">멋진 꿈을 향해 나아가길 기대할게요!</span>
         </h1>
         <p>시험 공부 많이 힘드셨죠?<br>앞으로는 더 잘 할 수 있을거예요.</p>
         <div class="btn-group">
-            <button class="btn-primary">감사합니다</button>
+            <button class="btn-primary">ㄱㅅ</button>
         </div>
     </section>
-
+    <div class="middle">
+        <p>이 페이지는 사전 설문에 기반하여 2026/07/07 이후에 이뤄질 통계 포스터 대회의 데이터를 수집합니다.<br>이 페이지는 다음을 수집합니다: 방문 수 (Visited Count)<br>문의 사항: Instagram: @s._hx59</p>
+    </div>
     <!-- 카드 섹션 -->
     <div class="section">
-        <h2 class="section-title">무엇을 조사하나요?</h2>
+        <h2 class="section-title">어디에서 조사가 이뤄지나요?</h2>
         <div class="cards">
             <div class="card" style="--card-gradient: linear-gradient(90deg, #a78bfa, #60a5fa)">
                 <div class="card-icon">A</div>
@@ -391,11 +415,6 @@
                 <div class="card-icon">C</div>
                 <h3>이순신고등학교</h3>
                 <p>이순신고등학교 복도에 이 포스터가 붙어 있습니다.</p>
-            </div>
-            <div class="card" style="--card-gradient: linear-gradient(90deg, #fbbf24, #f87171)">
-                <div class="card-icon">D</div>
-                <h3>어그나무</h3>
-                <p>어그나무 7F에 이 포스터가 붙어 있습니다.</p>
             </div>
         </div>
 
