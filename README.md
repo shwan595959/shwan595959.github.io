@@ -17,7 +17,6 @@
             overflow-x: hidden;
         }
 
-        /* 별 배경 */
         .stars {
             position: fixed;
             top: 0; left: 0;
@@ -110,8 +109,8 @@
             animation: fadeInUp 0.8s ease 0.4s both;
         
         }
-        /* 히어로 섹션 */
-        .hero {
+
+       .hero {
             position: relative;
             z-index: 1;
             min-height: 80vh;
@@ -202,8 +201,6 @@
             border-color: rgba(255,255,255,0.4);
             transform: translateY(-3px);
         }
-
-        /* 플로팅 오브 */
         .orb {
             position: fixed;
             border-radius: 50%;
@@ -239,7 +236,6 @@
             100% { transform: translate(30px, 30px) scale(1.1); }
         }
 
-        /* 카드 섹션 */
         .section {
             position: relative;
             z-index: 1;
@@ -307,7 +303,6 @@
             line-height: 1.7;
         }
 
-        /* 스탯 섹션 */
         .stats {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -338,7 +333,6 @@
             margin-top: 6px;
         }
 
-        /* 푸터 */
         footer {
             position: relative;
             z-index: 1;
@@ -349,7 +343,6 @@
             border-top: 1px solid rgba(255,255,255,0.06);
         }
 
-        /* 애니메이션 */
         @keyframes fadeInDown {
             from { opacity: 0; transform: translateY(-20px); }
             to   { opacity: 1; transform: translateY(0); }
@@ -360,7 +353,6 @@
             to   { opacity: 1; transform: translateY(0); }
         }
 
-        /* 스크롤바 */
         ::-webkit-scrollbar { width: 6px; }
         ::-webkit-scrollbar-track { background: #0a0a0f; }
         ::-webkit-scrollbar-thumb {
@@ -374,55 +366,57 @@
         <div class="logo">CNSH</div>
         
 </nav>
-    <!-- 플로팅 오브 -->
     <div class="orb orb-1"></div>
     <div class="orb orb-2"></div>
     <div class="orb orb-3"></div>
 
-    <!-- 별 배경 -->
     <div class="stars" id="stars"></div>
 
-    <!-- 히어로 -->
     <section class="hero">
         <div class="hero-badge">✦ 통계 포스터 대회 ✦</div>
         <h1>
             설문에 참여해 주셔서 감사합니다<br>
             <span class="gradient-text">멋진 꿈을 향해 나아가길 기대할게요!</span>
         </h1>
-        <p>시험 공부 많이 힘드셨죠?<br>앞으로는 더 잘 할 수 있을거예요.</p>
+        <p>시험 공부 많이 힘드셨죠?<br>앞으로는 더 잘 할 수 있을거에요.</p>
         <div class="btn-group">
             <button class="btn-primary">ㄱㅅ</button>
         </div>
     </section>
     <div class="middle">
-        <p>이 페이지는 사전 설문에 기반하여 2026/07/07 이후에 이뤄질 통계 포스터 대회의 데이터를 수집합니다.<br>이 페이지는 다음을 수집합니다: 방문 수 (Visited Count)<br>문의 사항: Instagram: @s._hx59</p>
+        <p>이 페이지는 사전 설문에 기반하여 2026/07/07 이후에 이뤄질 통계 포스터 대회의 데이터를 수집합니다.<br>이 페이지는 다음을 수집합니다: 방문 수 (Visited Count)<br>문의 사항: [Instagram] @s._hx59</p>
     </div>
-    <!-- 카드 섹션 -->
+
     <div class="section">
         <h2 class="section-title">어디에서 조사가 이뤄지나요?</h2>
         <div class="cards">
             <div class="card" style="--card-gradient: linear-gradient(90deg, #a78bfa, #60a5fa)">
-                <div class="card-icon">A</div>
+                <div class="card-icon">
+                    <img width="100" height="100" alt="Image" src="https://github.com/user-attachments/assets/7f4ff5a8-f473-4629-ace9-e00319810b93" />
+                </div>
                 <h3>충남과학고등학교</h3>
                 <p>충남과학고등학교 복도에 이 포스터가 붙어 있습니다.</p>
             </div>
             <div class="card" style="--card-gradient: linear-gradient(90deg, #60a5fa, #34d399)">
-                <div class="card-icon">B</div>
+                <div class="card-icon">
+                    <img width="100" height="100" alt="Image" src="https://github.com/user-attachments/assets/c303331b-6f7f-47f8-b56b-d92fccbb2c76" />
+
+                </div>
                 <h3>설화고등학교</h3>
                 <p>설화고등학교 엘리베이터 앞에 이 포스터가 붙어 있습니다.</p>
             </div>
             <div class="card" style="--card-gradient: linear-gradient(90deg, #34d399, #fbbf24)">
-                <div class="card-icon">C</div>
+                <div class="card-icon">
+                    <img width="100" height="100" alt="Image" src="https://github.com/user-attachments/assets/939e2106-b2a6-4847-a602-3f0238dde13f" />
+                </div>
                 <h3>이순신고등학교</h3>
                 <p>이순신고등학교 복도에 이 포스터가 붙어 있습니다.</p>
             </div>
         </div>
-
-        <!-- 스탯 -->
         <div class="stats">
             <div class="stat">
                 <div class="stat-number">오승훈</div>
-                <div class="stat-label">설문지 제작</div>
+                <div class="stat-label">설문지</div>
             </div>
             <div class="stat">
                 <div class="stat-number">김수환</div>
@@ -435,13 +429,11 @@
         </div>
     </div>
 
-    <!-- 푸터 -->
     <footer>
         <p>© 2025 김수환 | CNSH</p>
     </footer>
 
     <script>
-        // 별 생성
         const starsContainer = document.getElementById('stars');
         for (let i = 0; i < 150; i++) {
             const star = document.createElement('div');
@@ -458,7 +450,6 @@
             starsContainer.appendChild(star);
         }
 
-        // 마우스 시차 효과
         document.addEventListener('mousemove', (e) => {
             const x = (e.clientX / window.innerWidth - 0.5) * 20;
             const y = (e.clientY / window.innerHeight - 0.5) * 20;
@@ -468,7 +459,6 @@
                 `translate(${-x}px, ${-y}px)`;
         });
 
-        // 카드 마우스 글로우 효과
         document.querySelectorAll('.card').forEach(card => {
             card.addEventListener('mousemove', (e) => {
                 const rect = card.getBoundingClientRect();
