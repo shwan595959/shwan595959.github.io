@@ -16,7 +16,7 @@
             overflow-x: hidden;
         }
         img {
-            background-color: transparent;
+            background-color: transparent !important;
         }
         .stars {
             position: fixed;
