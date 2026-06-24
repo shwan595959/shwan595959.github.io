@@ -9,6 +9,7 @@
             padding: 0;
             box-sizing: border-box;
         }
+        
         body {
             background: #0a0a0f;
             color: #fff;
