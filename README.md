@@ -9,7 +9,6 @@
             padding: 0;
             box-sizing: border-box;
         }
-
         body {
             background: #0a0a0f;
             color: #fff;
@@ -392,14 +391,14 @@
         <div class="cards">
             <div class="card" style="--card-gradient: linear-gradient(90deg, #a78bfa, #60a5fa)">
                 <div class="card-icon">
-                    <img width="100" height="100" alt="Image" src="https://github.com/user-attachments/assets/7f4ff5a8-f473-4629-ace9-e00319810b93" />
+                    <img width="100" height="100" alt="Image" src="https://github.com/user-attachments/assets/7f4ff5a8-f473-4629-ace9-e00319810b93" class="transparent"/>
                 </div>
                 <h3>충남과학고등학교</h3>
                 <p>충남과학고등학교 복도에 이 포스터가 붙어 있습니다.</p>
             </div>
             <div class="card" style="--card-gradient: linear-gradient(90deg, #60a5fa, #34d399)">
                 <div class="card-icon">
-                    <img width="100" height="100" alt="Image" src="https://github.com/user-attachments/assets/c303331b-6f7f-47f8-b56b-d92fccbb2c76" />
+                    <img width="100" height="100" alt="Image" src="https://github.com/user-attachments/assets/c303331b-6f7f-47f8-b56b-d92fccbb2c76" class="transparent" />
 
                 </div>
                 <h3>설화고등학교</h3>
@@ -407,7 +406,7 @@
             </div>
             <div class="card" style="--card-gradient: linear-gradient(90deg, #34d399, #fbbf24)">
                 <div class="card-icon">
-                    <img width="100" height="100" alt="Image" src="https://github.com/user-attachments/assets/939e2106-b2a6-4847-a602-3f0238dde13f" />
+                    <img width="100" height="100" alt="Image" src="https://github.com/user-attachments/assets/939e2106-b2a6-4847-a602-3f0238dde13f" class="transparent" />
                 </div>
                 <h3>이순신고등학교</h3>
                 <p>이순신고등학교 복도에 이 포스터가 붙어 있습니다.</p>
